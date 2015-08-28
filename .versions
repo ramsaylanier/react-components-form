@@ -21,7 +21,7 @@ observe-sequence@1.0.6
 ordered-dict@1.0.3
 percolate:velocityjs@1.2.1_1
 ramsay:react-components-dependencies@0.0.2
-ramsay:react-components-form@0.0.2
+ramsay:react-components-form@0.0.3
 random@1.0.3
 react@0.1.7
 react-meteor-data@0.1.5

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ramsay:react-components-form',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'React Form Component',
   // URL to the Git repository containing the source code for this package.
@@ -17,7 +17,7 @@ Package.onUse(function(api) {
     'ramsay:react-components-dependencies@0.0.2'
   ], 'client');
 
-  api.addFiles('component-form.jsx');
+  api.addFiles(['component-form.jsx', 'component-inputs.jsx']);
 
-  api.export(['Form'], 'client');
+  api.export(['Form', 'InputType'], 'client');
 });
